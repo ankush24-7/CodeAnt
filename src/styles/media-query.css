@@ -1,0 +1,79 @@
+@media (min-width: 640px) {
+  nav {
+    height: 100%;
+    width: 18% !important;
+    border-bottom: 0px;
+    border-right: 1px solid #e9eaeb;
+  }
+
+  .hamburger-btn,
+  .menu-bg {
+    display: none;
+  }
+
+  .menu {
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    z-index: 0;
+  }
+
+  .body {
+    flex-grow: 1;
+    padding: 2rem;
+  }
+
+  .container {
+    height: 100%;
+    overflow-y: hidden;
+    border: 1px solid #e9eaeb;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 #0a0d120d;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.25rem;
+  }
+
+  .search-bar {
+    width: 32%;
+    min-width: 12rem;
+  }
+
+  .repo-list {
+    padding-bottom: 125px;
+  }
+
+  .vertical-scrollbar::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .vertical-scrollbar::-webkit-scrollbar-thumb {
+    width: 5px !important;
+    border-radius: 6px;
+    background-color: #b2ddff;
+  }
+
+  .vertical-scrollbar:hover::-webkit-scrollbar-thumb {
+    background-color: #58b7ff;
+  }
+
+  .sign-in-page {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .login-btn {
+    width: 75%;
+  }
+}
+
+@media (min-width: 1536px) {
+  
+}
