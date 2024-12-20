@@ -1,6 +1,12 @@
-# Codeant Assignment - Local Development Setup
+# Codeant Assignment 
 
-This README will guide you through the process of setting up and running the **Codeant Assignment** project locally on your machine.
+## Live Demo
+
+You can view the live demo of this project hosted on Netlify at the following link: [Live Demo - Codeant Assignment](https://codeant-assignment.netlify.app/)
+
+# Local Development Setup
+
+Follow the given process of setting up and running the **Codeant Assignment** project locally on your machine.
 
 ## Prerequisites
 
