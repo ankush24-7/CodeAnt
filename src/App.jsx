@@ -16,13 +16,13 @@ const App = () => {
     <Router>
       <div className="h-dvh w-full antialiased">
         <Routes>
-          <Route path="/" element={<Repositories />} />
+          <Route path="/" element={<SignIn />} />
+          <Route path="/repositories" element={<Repositories />} />
           <Route path="/code-review" element={<AICodeReview />} />
           <Route path="/cloud-security" element={<CloudSecurity />} />
           <Route path="/how-to-use" element={<HowToUse />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/support" element={<Support />} />
-          <Route path="/sign-in" element={<SignIn />} />
         </Routes>
       </div>
     </Router>

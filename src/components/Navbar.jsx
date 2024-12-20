@@ -27,7 +27,7 @@ const Navbar = ({ setIsAuthenticated }) => {
         </select>
         <div className="flex flex-col pt-4 pb-6 sm:justify-between sm:flex-grow">
           <ul>
-            <NavItems Icon={<NavbarIcons.Home className="w-5 h-5 group-hover:fill-white" />} text="Repositories" to="/" />
+            <NavItems Icon={<NavbarIcons.Home className="w-5 h-5 group-hover:fill-white" />} text="Repositories" to="/repositories" />
             <NavItems Icon={<NavbarIcons.Code className="w-5 h-5 group-hover:fill-white" />} text="AI Code Review" to="/code-review" />
             <NavItems Icon={<NavbarIcons.Cloud className="w-5 h-5 group-hover:fill-white" />} text="Cloud Security" to="/cloud-security" />
             <NavItems Icon={<NavbarIcons.Book className="w-5 h-5 group-hover:fill-white" />} text="How to Use" to="/how-to-use" />
@@ -35,7 +35,7 @@ const Navbar = ({ setIsAuthenticated }) => {
           </ul>
           <ul>
             <NavItems Icon={<NavbarIcons.Phone className="w-5 h-5 group-hover:fill-white" />} text="Support" to="/support" />
-            <NavItems Icon={<NavbarIcons.SignOut className="w-5 h-5 group-hover:fill-white" />} text="Logout" to="/sign-in" onClick={() => setIsAuthenticated(false)} />
+            <NavItems Icon={<NavbarIcons.SignOut className="w-5 h-5 group-hover:fill-white" />} text="Logout" to="/" onClick={() => setIsAuthenticated(false)} />
           </ul>
         </div>
       </div>
